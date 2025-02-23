@@ -2,52 +2,108 @@
     --black: #333333;
     --white: #F8F7F5;
     --main-orange: #EFBD68;
-  }
+}
 
 body {
-    font-family: 'Montserrat';
-    font-size: 22px;
-    color: var(--black);
     background-color: var(--white);
-}
-
-h1{
     font-family: 'Nunito';
+    color: var(--black);
+    margin: 0%;
 }
 
-.vertical-center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+button {
+    padding: 16px 36px;
+    font-family: 'Montserrat';
+    background-color: var(--main-orange);
+    border-radius: 50px;
+    border-color: transparent;
 }
 
-.header{
-    width: 100%;
+img {
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.center {
+    text-align: center;
+    margin: 0 auto;
+    align-self: center;
+}
+
+.web-header {
     display: flex;
     justify-content: space-between;
 }
 
-h1.header{
-    color:var(--main-orange); 
-    letter-spacing: 0.5em;
+.web-content {
+    padding: 53px 47px;
 }
 
-ul.header {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.web-header>div {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-li.header {
-    font-size: 16px;
-    float: left;
-    margin-left: 5px;
+.vertical-center {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.title {
+    color: var(--main-orange);
+    align-self: center;
+    letter-spacing: 10px;
 }
 
 a {
-    color: var(--black);
     text-decoration: none;
+    color: var(--black);
+}
+
+.menu {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.menu>a {
+    margin-right: 32px;
+}
+
+.home {
+    background-color: wheat;
+}
+
+.about {
+    background-color: var(--main-orange);
+}
+
+.services {
+    background-color: var(--white);
+}
+
+.contact {
+    background-color: var(--main-orange);
+}
+
+.web-footer {
+    background-color: var(--main-orange);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.text {
+    transform-origin: center 190px;
+    animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
