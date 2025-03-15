@@ -17,6 +17,7 @@ button {
     background-color: var(--main-orange);
     border-radius: 50px;
     border-color: transparent;
+    width: fit-content;
 }
 
 img {
@@ -56,9 +57,35 @@ img {
     letter-spacing: 10px;
 }
 
+h1 {
+    font-family: Nunito;
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+}
+
+h6 {
+    font-family: Nunito;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+
+}
+
 a {
     text-decoration: none;
     color: var(--black);
+}
+
+span {
+    font-family: Montserrat;
+    font-weight: 400;
+    text-wrap: wrap;
+    font-size: 20px;
+    letter-spacing: 0px;
+    text-align: center;
 }
 
 .menu {
@@ -70,13 +97,27 @@ a {
     margin-right: 32px;
 }
 
-.home {
-    background-color: wheat;
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.about {
-    background-color: var(--main-orange);
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.home {}
+
+.about {}
 
 .services {
     background-color: var(--white);
@@ -99,10 +140,28 @@ a {
     animation: rotate 10s linear infinite;
 }
 
+.round {
+    border-radius: 120px;
+}
+
+.medium-banner {
+    width: 280;
+    height: 470;
+    border-radius: 100%;
+}
+
+.small-banner {
+    width: 247;
+    height: 338;
+    border-radius: 100%;
+}
+
+
 @keyframes rotate {
     from {
         transform: rotate(0deg);
     }
+
     to {
         transform: rotate(360deg);
     }

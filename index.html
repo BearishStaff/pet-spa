@@ -10,7 +10,6 @@
 
 <body>
     <div class="web-content">
-
         <div class="web-header">
             <div class="menu">
                 <a href="#home">Home</a>
@@ -27,36 +26,64 @@
         </div>
 
         <section class="home">
-            <div class="center" style="display: flex; flex-direction: column; z-index: 0;">
-                <svg width="100%" height="100%">
+            <div class="center" style="display: flex; flex-direction: column; z-index: 0; align-items: center;">
+                <svg width="fit-content" height="100%">
                     <defs>
                         <path id="halfCirclePath" d="M 50,150 A 100,100 0 0,1 250,150" />
                     </defs>
-                    <text font-size="18" fill="black" text-anchor="middle" style="z-index: 1; text-transform: uppercase;">
-                      <textPath href="#halfCirclePath" startOffset="50%">
-                        Where your pet is our priority
-                      </textPath>
+                    <text font-size="18" fill="black" text-anchor="middle"
+                        style="z-index: 1; text-transform: uppercase;">
+                        <textPath href="#halfCirclePath" startOffset="50%">
+                            Where your pet is our priority
+                        </textPath>
                     </text>
                 </svg>
                 <img src="./assets/washing-pet-dog-home.png" style="border-radius: 267px; z-index: 2;">
-                <div style="width: 33%; text-wrap: wrap; font-size: 20px;">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque augue eros, pellentesque nec tempor eu, sollicitudin at dolor. Cras commodo venenatis diam, nec venenatis massa auctor at.
-                </div>
+                <span style="width: 800px;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque augue eros, pellentesque nec tempor
+                    eu, sollicitudin at dolor. Cras commodo venenatis diam, nec venenatis massa auctor at.
+                </span>
             </div>
         </section>
 
         <section class="about">
-            <div>
-                We treat your pet as a family member
+            <div class="row">
+                <div style="display: flex; flex-direction: column; flex: 1;">
+                    <h1>We treat your pet as a family member</h1>
+                    <span>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque augue eros, pellentesque nec
+                        tempor eu, sollicitudin at dolor. Cras commodo venenatis diam, nec venenatis massa auctor at.
+                    </span>
+                    <button>DISCOVER</button>
+                </div>
+                <div style="flex: 1; margin-left: 123px;">
+                    <img src="./assets/washing-pet-dog-home 2.png"
+                        style="border-radius: 267px; width: 100%; height: max-content;">
+                </div>
             </div>
         </section>
 
         <section class="service">
-            <div>
-                Pawdicure \ Spa Baths \ Haircut of Choice
+            <div class="row" style="justify-content: space-around; width: 66%;">
+                <div class="column">
+                    <img src="./assets/Group 61.png">
+                    <h6>Pawdicure</h6>
+                </div>
+                <div class="column">
+                    <img src="./assets/Cat.png">
+                    <h6>Spa Baths</h6>
+                </div>
+                <div class="column">
+                    <img src="./assets/Group 62.png">
+                    <h6>Haircut of Choice</h6>
+                </div>
             </div>
-            <div>
-                5 image
+            <div class="row">
+                <img class="round medium-banner" src="./assets/dog-gets-hair-cut-pet-spa-grooming-salon.png">
+                <img class="round small-banner" src="./assets/cat-blanket-near-window.png">
+                <img class="round medium-banner" src="./assets/front-view-cute-dog-with-scarf.png">
+                <img class="round small-banner" src="./assets/cute-bichon-frise-after-bath-wrapped-towel-pet-care-concept-copy-space-text.png">
+                <img class="round medium-banner" src="./assets/funny-wet-white-cute-kitten-after-bathing-wrapped-blue-towel-pink-terry-cap-his-head.png">
             </div>
         </section>
 
@@ -67,7 +94,7 @@
         </section>
     </div>
     <div class="web-footer">
-Footer
+        Footer
     </div>
 </body>
 
