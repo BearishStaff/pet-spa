@@ -26,8 +26,8 @@
         </div>
 
         <section class="home">
-            <div class="center" style="display: flex; flex-direction: column; z-index: 0; align-items: center;">
-                <svg width="fit-content" height="100%">
+            <div class="center" style="display: flex; flex-direction: column; align-items: center;">
+                <svg width="fit-content" height="100%" style="position: absolute; z-index: 0;">
                     <defs>
                         <path id="halfCirclePath" d="M 50,150 A 100,100 0 0,1 250,150" />
                     </defs>
@@ -38,7 +38,7 @@
                         </textPath>
                     </text>
                 </svg>
-                <img src="./assets/washing-pet-dog-home.png" style="border-radius: 267px; z-index: 2;">
+                <img src="./assets/washing-pet-dog-home.png" style="border-radius: 267px; z-index: 2; position: relative; margin-bottom: 36px; margin-top:150px">
                 <span style="width: 800px;">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque augue eros, pellentesque nec tempor
                     eu, sollicitudin at dolor. Cras commodo venenatis diam, nec venenatis massa auctor at.
@@ -47,14 +47,14 @@
         </section>
 
         <section class="about">
-            <div class="row">
+            <div class="row wide-medium">
                 <div style="display: flex; flex-direction: column; flex: 1;">
                     <h1>We treat your pet as a family member</h1>
                     <span>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque augue eros, pellentesque nec
                         tempor eu, sollicitudin at dolor. Cras commodo venenatis diam, nec venenatis massa auctor at.
                     </span>
-                    <button>DISCOVER</button>
+                    <button style="margin-top: 48px;">DISCOVER</button>
                 </div>
                 <div style="flex: 1; margin-left: 123px;">
                     <img src="./assets/washing-pet-dog-home 2.png"
@@ -78,6 +78,7 @@
                     <h6>Haircut of Choice</h6>
                 </div>
             </div>
+            <gap></gap>
             <div class="row">
                 <img height="470" class="round" src="./assets/dog-gets-hair-cut-pet-spa-grooming-salon.png">
                 <img height="338" class="round" src="./assets/cat-blanket-near-window.png">
@@ -87,14 +88,15 @@
                 <img height="470" class="round"
                     src="./assets/funny-wet-white-cute-kitten-after-bathing-wrapped-blue-towel-pink-terry-cap-his-head.png">
             </div>
-            <div class="row">
+            <gap></gap>
+            <div class="row wide-medium">
                 <div style="display: flex; flex-direction: column; flex: 1;">
                     <h1>Qualified personal care for all breeds</h1>
-                    <span>
+                    <span style="text-align: start;">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque augue eros, pellentesque nec
                         tempor eu, sollicitudin at dolor. Cras commodo venenatis diam, nec venenatis massa auctor at.
                     </span>
-                    <button>DISCOVER</button>
+                    <button style="margin-top: 48px;">DISCOVER</button>
                 </div>
                 <div style="flex: 1; margin-left: 123px;">
                     <span>ALL FULL GROOMS INCLUDE</span>
@@ -108,11 +110,14 @@
                     </ul>
                 </div>
             </div>
+            <gap></gap>
             <div class="row">
                 <img height="470" class="round" src="./assets/beautiful-pet-portrait-cat.png">
+                <wide-gap></wide-gap>
                 <img height="1104" class="round" src="./assets/female-is-grooming-trimming-pomeranian-spitz-salon.png">
             </div>
-            <div class="column">
+            <gap></gap>
+            <div class="column wide-small">
                 <img src="./assets/Group 63.png">
                 <span>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque augue eros, pellentesque nec
                     tempor eu, sollicitudin at dolor. Cras commodo venenatis diam, nec venenatis massa auctor at.
@@ -135,12 +140,40 @@
                             <span>Saturday 10:00-21:00</span>
                         </div>
                     </div>
+                    <div class="row">
+                        <img src="./assets/icons/geo-alt-fill.svg">
+                        <div class="column" style="align-items: start;">
+                            <span>get in touch</span>
+                            <span>+012-345-6789</span>
+                            <span>Pawfections@contact.com</span>
+                            <span>9889 Lorem Ipsum street, Pellentesque, CA, USA</span>
+                        </div>
+                    </div>
                 </div>
+            </div>
+            <gap></gap>
+            <div class="row">
+                <img height="470" class="round" src="./assets/cocker.png">
+                <img height="338" class="round" src="./assets/shorthair.png">
+                <img height="470" class="round" src="./assets/barber.png">
+                <img height="338" class="round" src="./assets/corgi.png">
+                <img height="470" class="round" src="./assets/terria.png">
             </div>
         </section>
     </div>
     <div class="web-footer">
-        Footer
+        <div class="row">
+            <div><h1 style="font-size: 36px;">PAWSFECTIONS</h1></div>
+            <div class="column">
+
+            </div>
+        </div>
+        <hr class="solid" style="color: var(--black)">
+        <div class="row">
+            <h6>Copyright Dotcreativemarket</h6>
+            <h6>Terms of Use</h6>
+            <h6>Privacy Policy</h6>
+        </div>
     </div>
 </body>
 

@@ -112,6 +112,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 143px;
 }
 
 .column {
@@ -128,10 +129,12 @@ section {
 
 .web-footer {
     background-color: var(--main-orange);
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+    padding-left: 194px;
+    padding-right: 194px;
+    padding-top: 143px;
 }
 
 .text {
@@ -141,6 +144,22 @@ section {
 
 .round {
     border-radius: 256px;
+}
+
+.wide-small{
+    width: 50%;
+}
+
+.wide-medium{
+    width: 80%;
+}
+
+gap{
+    margin-bottom: 143px;
+}
+
+wide-gap{
+    margin-right: 50px;
 }
 
 
